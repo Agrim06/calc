@@ -32,3 +32,9 @@ function doCalculate() {
     display.innerText = "Error";
   }
 }
+
+function changeSign(){
+  let val = parseFloat(display.innerText)
+  let change = -1 * val;
+  display.innerText = change.toString();
+}
