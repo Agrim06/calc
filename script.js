@@ -25,7 +25,7 @@ function doCalculate() {
      if (!isFinite(result)) {
       display.innerText = "Error";
     } else {
-      display.innerText = parseFloat(result.toFixed(10));
+      display.innerText = parseFloat(result.toFixed(4));
     }
 
   } catch {
